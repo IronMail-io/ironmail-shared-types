@@ -1,0 +1,42 @@
+{
+  "name": "@ironmail/shared-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types and interfaces for IronMail services",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "ironmail",
+    "types",
+    "typescript",
+    "shared"
+  ],
+  "author": "IronMail Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ironmail-io/ironmail-shared-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ironmail-io/ironmail-shared-types/issues"
+  },
+  "homepage": "https://github.com/ironmail-io/ironmail-shared-types"
+}
